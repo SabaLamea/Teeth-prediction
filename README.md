@@ -1,4 +1,4 @@
-# 🦷 Teeth Image Classification using Custom CNN
+# 🦷 Teeth Image Classification using Custom CNN & VGG16
 
 This project implements a deep learning pipeline to classify teeth conditions into 7 distinct classes using a custom-built Convolutional Neural Network (CNN) & fine-tuned VGG16 model.  
 It includes **training**, **validation**, **testing**.

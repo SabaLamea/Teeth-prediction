@@ -1,4 +1,4 @@
-🦷 Teeth Classification – Custom CNN & VGG16 + Streamlit
+#🦷 Teeth Classification – Custom CNN & VGG16 + Streamlit
 This project performs teeth image classification using two approaches:
 A Custom CNN model built from scratch
 A fine-tuned VGG16 model (transfer learning)

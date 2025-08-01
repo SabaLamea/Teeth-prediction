@@ -15,9 +15,9 @@ This project focuses on identifying dental conditions from panoramic X-ray image
 - Dataset split into training, validation, and test sets
 
 ###  2. Models Implemented
-- ✅ Custom CNN from scratch
-- ✅ Transfer learning models: VGG16, ResNet50
-- ✅ Fine-tuned model weights and compared performance
+-  Custom CNN from scratch
+-  Transfer learning models: VGG16, ResNet50
+-  Fine-tuned model weights and compared performance
 
 ###  3. Evaluation Results
 - Achieved **up to 92% accuracy** using fine-tuned models

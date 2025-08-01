@@ -1,16 +1,37 @@
-# 🦷 Teeth Image Classification using Custom CNN & VGG16
+# 🦷 Teeth X-ray Classification – Dental Disease Detection
 
-This project implements a deep learning pipeline to classify teeth conditions into 7 distinct classes using a custom-built Convolutional Neural Network (CNN) & fine-tuned VGG16 model.  
-It includes **training**, **validation**, **testing**.
+This project focuses on identifying dental conditions from panoramic X-ray images using deep learning. The model classifies images into **7 categories** of dental abnormalities to assist in diagnostic automation.
 
----
+## 📊 Dataset
+- **Source:** Panoramic dental X-ray dataset (source unspecified)
+- **Classes:** 7 different dental issues
+- **Preprocessing:** Images were resized, normalized, and augmented to enhance generalization
 
-**This project performs teeth image classification using two approaches:**  
--A Custom CNN model built from scratch  
--A fine-tuned VGG16 model (transfer learning)  
-It also includes a Streamlit app to deploy the model for real-time predictions from uploaded images.  
+## 📌 Project Highlights
 
+### 🔬 1. Preprocessing
+- Resizing, grayscale conversion, normalization
+- Data augmentation techniques: flipping, rotation, zoom, etc.
+- Dataset split into training, validation, and test sets
 
----
+### 🤖 2. Models Implemented
+- ✅ Custom CNN from scratch
+- ✅ Transfer learning models: VGG16, ResNet50
+- ✅ Fine-tuned model weights and compared performance
 
-**I will update it**
+### 📈 3. Evaluation Results
+- Achieved **up to 92% accuracy** using fine-tuned models
+- High F1 scores across multiple classes
+- Visualized performance using confusion matrix, accuracy/loss plots
+
+### 💻 4. Deployment
+The trained model was deployed as an interactive web app using **Streamlit**, allowing users to upload X-ray images and view classification results in real-time.
+- Styled the UI using **HTML/CSS**
+- Displayed confidence scores for each class
+- Includes clear error handling and prediction display
+
+## 🚀 How to Use
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SabaLamea/Teeth-prediction.git
+   cd Teeth-prediction
